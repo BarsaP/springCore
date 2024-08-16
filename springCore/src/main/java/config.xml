@@ -11,12 +11,21 @@
           <value>22344</value>
      </property>
      
-     <property name="studentName">
-          <value>Barsa</value>
-     </property>
+     <property name="studentName" value="Barsa" />
      
-     <property name="studentAddress">
-          <value>Odisha</value>
-     </property>
+     <!--  <property name="studentAddress">
+          <value>Odisha</value> 
+     </property> -->
+     <!-- Instead of the above line write the below line using p Schema -->
+     <property name="studentAddress" value="Odisha" />
+ </bean>
+ 
+ <!-- Second bean -->
+  <bean class="com.springCore.Student" name="student2">
+     <property name="studentId" value = "22057" />
+     
+     <property name="studentName" value="Bijuli" />
+     
+     <property name="studentAddress" value="Cuttack" />
  </bean>
  </beans>
