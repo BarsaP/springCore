@@ -23,4 +23,10 @@
        </list>
      </constructor-arg>
     </bean>    
+    
+    <bean class="com.springCore.ci.Addition" name="add">
+    <constructor-arg value="12" type="int" />
+    <constructor-arg value="34" type="int" /> <!-- if you want to specifi int or double type then type specify -->
+    
+    </bean>
  </beans>
